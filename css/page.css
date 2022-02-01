@@ -3,11 +3,17 @@
   src: url('./kongtext.ttf') format('truetype');
 }
 
-h1, h2, a {
+h1, h2, a, p {
   font-family: kongtext, helvetica !important;
 }
 
+
+p {
+    font-size: 12px;
+}
+
 a {
+  font-size: 18px;
   text-decoration: none;
   color: #E60F0F;
   transition: all 0.3s ease;
@@ -15,6 +21,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+ul li {
+    margin-left: -30px;
 }
 
 a:hover {
@@ -41,7 +51,7 @@ a:hover {
 }
 
 .jumbotron h1 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .line {
